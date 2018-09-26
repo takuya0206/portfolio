@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import CssBaseline from '@material-ui/core/CssBaseline'
+import MenuBar from './components/MenuBar'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { MuiThemeProvider } from '@material-ui/core/styles'
+import theme from './assets/theme'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <React.Fragment>
+        <CssBaseline />
+          <Router>
+            <MuiThemeProvider theme={theme}>
+              <MenuBar />
+            </MuiThemeProvider>
+         </Router>
+      </React.Fragment>
     );
   }
 }
 
+library.add(fab, fas)
 export default App;
