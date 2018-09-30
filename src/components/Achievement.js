@@ -30,7 +30,7 @@ const styles = theme => ({
 
 
 function AchievementCard (props) {
-  const { classes, imagePath, title, role, description, link } = props
+  const { classes, imagePath, title, role, description, URL } = props
 
   return (
     <Card className={classes.card}>
@@ -53,7 +53,7 @@ function AchievementCard (props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href={link} target="_blank">
+        <a href={URL} target="_blank">
           <Button size="small" color="primary">
             Learn More
           </Button>
@@ -85,7 +85,7 @@ class Achievement extends Component {
 
     return (
       <div className={classes.root}>
-        <Typography variant='display2' component='h2' gutterBottom={true} >{titles['Achievement'][lang]}</Typography>
+        <Typography  variant='display2' component='h2' gutterBottom={true} >{titles['Achievement'][lang]}</Typography>
         <div className={classes.row}>
         <Grid container="container" spacing={24}>
           {
@@ -98,7 +98,7 @@ class Achievement extends Component {
                     title={achievement[key].title}
                     role={achievement[key].role[lang]}
                     description={achievement[key].description[lang]}
-                    link={achievement[key].link}
+                    URL={achievement[key].URL}
                   />
                 </Grid>
               )

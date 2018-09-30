@@ -41,11 +41,11 @@ class Publication extends Component {
           {
             Object.keys(publication).map((key) => {
               const title = publication[key].title[lang]
-              const link = publication[key].link
+              const URL = publication[key].URL
 
               return (
                 <div key={title} className={classes.row}>
-                  <Button onClick={() => window.open(link)} className={classes.myButton} >
+                  <Button onClick={() => window.open(URL)} className={classes.myButton} >
                     <div className={classes.inlineIcon}>
                       <FontAwesomeIcon icon={publication[key].icon} size="lg" />
                     </div>

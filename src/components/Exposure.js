@@ -76,8 +76,8 @@ class Exposure extends Component {
     this.setState({ open: false });
   }
 
-  handleLink = (link) => {
-    window.open(link)
+  handleURL = (URL) => {
+    window.open(URL)
   }
 
 
@@ -90,9 +90,9 @@ class Exposure extends Component {
         <Typography variant='display2' component='h2' gutterBottom={true} >{titles['Media Exposure'][lang]}</Typography>
         {
           Object.keys(exposure).map((key) => {
-            const method = exposure[key].image ? this.handleOpen : this.handleLink
+            const method = exposure[key].image ? this.handleOpen : this.handleURL
             const title = exposure[key].title[lang]
-            const path = exposure[key].image ? exposure[key].image : exposure[key].link
+            const path = exposure[key].image ? exposure[key].image : exposure[key].URL
 
             return (
               <div key={title} className={classes.row}>

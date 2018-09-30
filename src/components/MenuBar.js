@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { withStyles } from '@material-ui/core/styles'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
 import Menu from '@material-ui/core/Menu'
-import MenuIcon from '@material-ui/icons/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import MoreIcon from '@material-ui/icons/MoreVert'
-import link from '../data/link'
+import URL from '../data/URL'
+
 
 const styles = theme => ({
   root: {
@@ -43,7 +44,7 @@ const styles = theme => ({
 })
 
 const Icon = (props) => {
-  const method = props.link ? () => window.open(props.link) : props.method
+  const method = props.URL ? () => window.open(props.URL) : props.method
   return (
     <IconButton color='inherit' onClick={method}>
       <FontAwesomeIcon icon={[props.type, props.title]} />
@@ -60,7 +61,6 @@ class MenuBar extends Component {
     super(props)
     this.props = props
     this.state = {
-      anchorEl: null,
       mobileMoreAnchorEl: null,
     }
   }
@@ -87,9 +87,8 @@ class MenuBar extends Component {
 
 
   render() {
-    const { anchorEl, mobileMoreAnchorEl } = this.state
+    const { mobileMoreAnchorEl } = this.state
     const { classes, switchLang } = this.props
-    const isMenuOpen = Boolean(anchorEl)
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl)
 
     const renderMobileMenu = (
@@ -101,13 +100,13 @@ class MenuBar extends Component {
         onClose={this.handleMobileMenuClose}
       >
         <MenuItem>
-          <Icon type='fab' title='github' link={link.github} />
+          <Icon type='fab' title='github' URL={URL.github} />
         </MenuItem>
         <MenuItem>
-          <Icon type='fab' title='linkedin' link={link.linkedin} />
+          <Icon type='fab' title='linkedin' URL={URL.linkedin} />
         </MenuItem>
         <MenuItem>
-          <Icon type='fab' title='twitter' link={link.twitter} />
+          <Icon type='fab' title='twitter' URL={URL.twitter} />
         </MenuItem>
         <MenuItem>
           <Icon type='fas' title='language' method={switchLang}/>
@@ -119,17 +118,16 @@ class MenuBar extends Component {
       <div className={classes.root}>
         <AppBar position="fixed" color="primary">
           <Toolbar>
-            <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="title" color="inherit"  className={classes.title}>
-              Portfolio
-            </Typography>
+            <Link to="/">
+              <Typography variant="title" color="inherit"  className={classes.title}>
+                Portfolio
+              </Typography>
+            </Link>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-              <Icon type="fab" title="github" link={link.github} />
-              <Icon type="fab" title="linkedin" link={link.linkedin} />
-              <Icon type="fab" title="twitter" link={link.twitter} />
+              <Icon type="fab" title="github" URL={URL.github} />
+              <Icon type="fab" title="linkedin" URL={URL.linkedin} />
+              <Icon type="fab" title="twitter" URL={URL.twitter} />
               <Icon type="fas" title="language" method={switchLang} />
             </div>
             <div className={classes.sectionMobile}>
@@ -140,7 +138,6 @@ class MenuBar extends Component {
           </Toolbar>
         </AppBar>
         {renderMobileMenu}
-
       </div>
     )
   }

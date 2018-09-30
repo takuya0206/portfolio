@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import CssBaseline from '@material-ui/core/CssBaseline'
 import MenuBar from './components/MenuBar'
-import Profile from './components/Profile'
-import Experience from './components/Experience'
-import Achievement from './components/Achievement'
-import Exposure from './components/Exposure'
-import Publication from './components/Publication'
-import Footer from './components/Footer'
+import Portfolio from './components/Portfolio'
+import NoMatch from './components/NoMatch'
+import PrivacyPolicy from './components/PrivacyPolicy'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -49,12 +47,19 @@ class App extends Component {
           <Router>
             <MuiThemeProvider theme={theme}>
               <MenuBar switchLang={this.switchLang} />
-              <Profile />
-              <Experience isJapanese={isJapanese} />
-              <Achievement isJapanese={isJapanese} />
-              <Exposure isJapanese={isJapanese} />
-              <Publication isJapanese={isJapanese} />
-              <Footer isJapanese={isJapanese} / >
+              <Switch>
+                <Route
+                  path='/'
+                  exact
+                  render={() => <Portfolio isJapanese={isJapanese} />}
+                />
+                <Route
+                  path='/praivacy_policy'
+                  render={() => <PrivacyPolicy isJapanese={isJapanese} />}
+                />
+                <Route component={NoMatch} />
+
+              </Switch>
             </MuiThemeProvider>
          </Router>
       </React.Fragment>

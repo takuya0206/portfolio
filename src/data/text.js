@@ -64,7 +64,7 @@ export const achievement = {
       ja: '世界初の人工知能型教材 "Qubena(キュビナ)"。Qubenaは、生徒それぞれの間違い方の原因を人工知能が解析し、原因を解決するためにその生徒が解くべき問題へと誘導します。',
       en: 'AI-Programmed Learning Tool "Qubena". Qubena produces a productive learning best fit for the student, allowing students to keep moving forward onto new concepts.'
     },
-    link: 'https://itunes.apple.com/jp/app/qubena-%E9%AB%98%E6%A0%A1%E7%89%88/id1321405084?mt=8',
+    URL: 'https://itunes.apple.com/jp/app/qubena-%E9%AB%98%E6%A0%A1%E7%89%88/id1321405084?mt=8',
   },
   'Gantt Chart Generator': {
     imagePath: gantt_chart_generator,
@@ -77,7 +77,7 @@ export const achievement = {
       ja: 'ガントチャートを自動生成するスプレッドシートのアドオン。小規模から中規模のプロジェクトの進行管理や、大規模プロジェクトの叩き台のスケジュールを引くときなどに活用可能。',
       en: 'Google spreadsheet add-on in which you can automatically create a gantt chart. This is suitable to manage a small or a medium size of projects.',
     },
-    link: 'https://chrome.google.com/webstore/detail/gantt-chart-generator/bnaicalmdphddkedcgchnfbjohmhdgni?utm_source=permalink',
+    URL: 'https://chrome.google.com/webstore/detail/gantt-chart-generator/bnaicalmdphddkedcgchnfbjohmhdgni?utm_source=permalink',
   },
   'Precedence Diagram Maker': {
     imagePath: PDM,
@@ -90,7 +90,7 @@ export const achievement = {
       ja: 'Precedence Diagram Methodでネットワーク図を自動生成するスプレッドシートのアドオン。各工程の依存関係を整理し、スケジュールに落とし込むときなどに活用可能。',
       en: 'Google spreadsheet add-on in which you can automatically a network chart in Precedence Diagram Method and measure total duration of projects.',
     },
-    link: 'https://chrome.google.com/webstore/detail/precedence-diagram-maker/mapjdikjkobbpmhaeeahjeobhllacjkb?utm_source=permalink',
+    URL: 'https://chrome.google.com/webstore/detail/precedence-diagram-maker/mapjdikjkobbpmhaeeahjeobhllacjkb?utm_source=permalink',
   },
   'Wasabi - Learn Japanese Oneline': {
     imagePath: Wasabi,
@@ -103,7 +103,7 @@ export const achievement = {
       ja: 'スピーキングの練習に特化したオンライン日本語学習サービス。ネイティブスピーカーとのプライベートレッスンの提供に合わせて、様々な学習教材を無料で公開しています。',
       en: 'Website which is specialized for Japanese in speaking practice. Along with private lessons with native speakers, there are various free learning materials. ',
     },
-    link: 'https://wasabi-jpn.com/',
+    URL: 'https://wasabi-jpn.com/',
   }
 }
 
@@ -129,7 +129,7 @@ export const exposure = {
       ja: '東洋経済 ONLINE - 世界の募集要項（2015年1月）',
       en: 'Japanese economic news site "Toyo Keizai" (2015 January)'
     },
-    link: 'https://toyokeizai.net/articles/-/58076',
+    URL: 'https://toyokeizai.net/articles/-/58076',
     icon: 'mobile-alt'
   },
 }
@@ -140,8 +140,7 @@ export const publication = {
       ja: 'Wasabi\'s Japanese grammar Reference（2017年2月）',
       en: 'Wasabi\'s Japanese grammar Reference (2017 February)',
     },
-    link: 'https://www.amazon.com/Wasabis-Japanese-Grammar-Reference-Audio-ebook/dp/B06XBC9Q52',
+    URL: 'https://www.amazon.com/Wasabis-Japanese-Grammar-Reference-Audio-ebook/dp/B06XBC9Q52',
     icon: 'book',
-
   }
 }

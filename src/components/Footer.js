@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
+import { Link } from 'react-router-dom'
 
 const styles = theme => ({
   root: {
@@ -23,11 +24,13 @@ class Footer extends Component {
   }
 
   render () {
-    const { classes, isJapanese } = this.props
-    const lang = isJapanese ? 'ja' : 'en'
+    const { classes } = this.props
 
     return (
       <div className={classes.root}>
+        <Link to="/praivacy_policy">
+          <Typography align="center" className={classes.footer}>Privacy Policy</Typography>
+        </Link>
         <Typography align="center" className={classes.footer}>© 2018 Takuya Tokiwa</Typography>
       </div>
     )
