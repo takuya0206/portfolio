@@ -2,6 +2,8 @@ import gantt_chart_generator from '../assets/img/gantt_chart_generator.png'
 import PDM from '../assets/img/PDM.png'
 import Wasabi from '../assets/img/Wasabi.png'
 import Qubena from '../assets/img/qubena_highSchool.png'
+import NewsPaper_Wasabi from '../assets/img/NewsPaper_Wasabi.JPG'
+import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShimabara.JPG'
 
 
 export const skills = {
@@ -30,7 +32,7 @@ export const introduction = {
   },
   'Entrepreneurship': {
     ja: '起業と事業売却の経験が二回あります。会社経営は年商3000万程度の規模までで、ゼロイチ・フェーズの方が得意です。また、ビジネスだけではなく、財務・法務・労務などの知識と経験もあります。',
-    en: 'I have started my own business twice and both of them were acquired. I am strong in "Zero to One" rather than management of a company. In addition to BizDev, I have experience of finance, HR, and legal.',
+    en: 'I have started my own business several times and two of them were acquired. I am strong in "Zero to One" rather than management of a company. In addition to BizDev, I have experience of finance, HR, and legal.',
   },
 }
 
@@ -94,9 +96,36 @@ export const achievement = {
       en: 'Role: Founder',
     },
     description: {
-      ja: 'スピーキングの練習に特化したオンライン日本語学習サービス。ネイティブスピーカーとのプライベートレッスンの提供に合わせて、様々な学習教材を無料で公開している。',
+      ja: 'スピーキングの練習に特化したオンライン日本語学習サービス。ネイティブスピーカーとのプライベートレッスンの提供に合わせて、様々な学習教材を無料で公開しています。',
       en: 'Website which is specialized for Japanese in speaking practice. Along with private lessons with native speakers, there are various free learning materials. ',
     },
     link: 'https://wasabi-jpn.com/',
   }
+}
+
+export const exposure = {
+  'Wasabi with FMShimabara': {
+    title: {
+      ja: '島原新聞 - ラジオ音源を日本語教材に（2015年 10月）',
+      en: 'Japanese local newspaper "Shimabara Shinbun" (2015 October)'
+    },
+    image: NewsPaper_Wasabi_FMShimabara,
+    icon: 'file'
+  },
+  'Wasabi': {
+    title: {
+      ja: '島原新聞 - 紙学余話（2015年 7月）',
+      en: 'Japanese local newspaper "Shimabara Shinbun" (2015 July)'
+    },
+    image: NewsPaper_Wasabi,
+    icon: 'file'
+  },
+  '東洋経済': {
+    title: {
+      ja: '東洋経済 ONLINE - 世界の募集要項（2015年 1月）',
+      en: 'Japanese economic news site "Toyo Keizai" (2015 January)'
+    },
+    link: 'https://toyokeizai.net/articles/-/58076',
+    icon: 'mobile-alt'
+  },
 }
