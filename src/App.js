@@ -6,6 +6,7 @@ import Profile from './components/Profile'
 import Experience from './components/Experience'
 import Achievement from './components/Achievement'
 import Exposure from './components/Exposure'
+import Publication from './components/Publication'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -52,6 +53,7 @@ class App extends Component {
               <Experience isJapanese={isJapanese} />
               <Achievement isJapanese={isJapanese} />
               <Exposure isJapanese={isJapanese} />
+              <Publication isJapanese={isJapanese} />
             </MuiThemeProvider>
          </Router>
       </React.Fragment>

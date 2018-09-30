@@ -44,7 +44,11 @@ export const titles = {
   'Media Exposure': {
     ja: 'メディア掲載',
     en: 'Media Exposure'
-  }
+  },
+  'Publication': {
+    ja: '出版',
+    en: 'Publication'
+  },
 }
 
 
@@ -106,7 +110,7 @@ export const achievement = {
 export const exposure = {
   'Wasabi with FMShimabara': {
     title: {
-      ja: '島原新聞 - ラジオ音源を日本語教材に（2015年 10月）',
+      ja: '島原新聞 - ラジオ音源を日本語教材に（2015年10月）',
       en: 'Japanese local newspaper "Shimabara Shinbun" (2015 October)'
     },
     image: NewsPaper_Wasabi_FMShimabara,
@@ -114,7 +118,7 @@ export const exposure = {
   },
   'Wasabi': {
     title: {
-      ja: '島原新聞 - 紙学余話（2015年 7月）',
+      ja: '島原新聞 - 紙学余話（2015年7月）',
       en: 'Japanese local newspaper "Shimabara Shinbun" (2015 July)'
     },
     image: NewsPaper_Wasabi,
@@ -122,10 +126,22 @@ export const exposure = {
   },
   '東洋経済': {
     title: {
-      ja: '東洋経済 ONLINE - 世界の募集要項（2015年 1月）',
+      ja: '東洋経済 ONLINE - 世界の募集要項（2015年1月）',
       en: 'Japanese economic news site "Toyo Keizai" (2015 January)'
     },
     link: 'https://toyokeizai.net/articles/-/58076',
     icon: 'mobile-alt'
   },
+}
+
+export const publication = {
+  'Wasabi\'s Japanese grammar Reference' : {
+    title: {
+      ja: 'Wasabi\'s Japanese grammar Reference（2017年2月）',
+      en: 'Wasabi\'s Japanese grammar Reference (2017 February)',
+    },
+    link: 'https://www.amazon.com/Wasabis-Japanese-Grammar-Reference-Audio-ebook/dp/B06XBC9Q52',
+    icon: 'book',
+
+  }
 }

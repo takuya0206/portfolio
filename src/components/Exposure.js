@@ -35,7 +35,6 @@ const styles = theme => ({
 
 function ExposureModal(props){
   const { classes, open, onClose, path, title } = props
-  console.log(props);
   return (
     <div>
       <Modal open={open} onClose={onClose}>
@@ -66,7 +65,6 @@ class Exposure extends Component {
   }
 
   handleOpen = (path, title) => {
-    console.log(path);
     this.setState({
       open: true,
       path: path,
