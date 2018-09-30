@@ -4,6 +4,8 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import MenuBar from './components/MenuBar'
 import Profile from './components/Profile'
 import Experience from './components/Experience'
+import Achievement from './components/Achievement'
+import Exposure from './components/Exposure'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -39,6 +41,7 @@ class App extends Component {
   }
 
   render() {
+    const { isJapanese } = this.state
     return (
       <React.Fragment>
         <CssBaseline />
@@ -46,7 +49,9 @@ class App extends Component {
             <MuiThemeProvider theme={theme}>
               <MenuBar switchLang={this.switchLang} />
               <Profile />
-              <Experience isJapanese={this.state.isJapanese} />
+              <Experience isJapanese={isJapanese} />
+              <Achievement isJapanese={isJapanese} />
+              <Exposure isJapanese={isJapanese} />
             </MuiThemeProvider>
          </Router>
       </React.Fragment>

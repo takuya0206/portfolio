@@ -11,9 +11,9 @@ import { skills, introduction } from '../data/text'
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 80,
-    marginBottom: 80,
-    padding: 24,
+    marginTop: theme.spacing.component,
+    marginBottom: theme.spacing.component,
+    padding: theme.padding.component,
   },
   chip: {
     margin: theme.spacing.unit,
@@ -51,7 +51,7 @@ class Experience extends Component {
               <CardContent>
                 <div className={classes.row}>
                   <Icon className={classes.inlineIcon}>explore</Icon>
-                  <Typography color="textPrimary" variant="title" gutterBottom={true}>
+                  <Typography color="textPrimary" variant="title" component="p" gutterBottom={true}>
                     Project Management
                   </Typography>
                 </div>
@@ -72,7 +72,7 @@ class Experience extends Component {
               <CardContent>
                 <div className={classes.row}>
                   <Icon className={classes.inlineIcon}>desktop_mac</Icon>
-                  <Typography color="textPrimary" variant="title" gutterBottom={true}>
+                  <Typography color="textPrimary" variant="title" component="p" gutterBottom={true}>
                     Software Engineering
                   </Typography>
                 </div>
@@ -93,7 +93,7 @@ class Experience extends Component {
               <CardContent>
                 <div className={classes.row}>
                   <Icon className={classes.inlineIcon}>business</Icon>
-                  <Typography color="textPrimary" variant="title" gutterBottom={true}>
+                  <Typography color="textPrimary" variant="title" component="p" gutterBottom={true}>
                     Entrepreneurship
                   </Typography>
                 </div>

@@ -8,9 +8,11 @@ const theme = createMuiTheme({
     unit: 4,
     icon: 8,
     para: 12,
+    component: 50,
   },
   padding: {
-    basic: 5
+    basic: 5,
+    component: 24,
   },
 });
 
