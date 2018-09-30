@@ -54,7 +54,7 @@ class App extends Component {
                   render={() => <Portfolio isJapanese={isJapanese} />}
                 />
                 <Route
-                  path='portfolio/praivacy_policy'
+                  path='/portfolio/praivacy_policy'
                   render={() => <PrivacyPolicy isJapanese={isJapanese} />}
                 />
                 <Route component={NoMatch} />
