@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Achievement from './components/Achievement'
 import Exposure from './components/Exposure'
 import Publication from './components/Publication'
+import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +18,6 @@ class App extends Component {
 
   constructor(props) {
     super(props)
-    this.switchLang = this.switchLang.bind(this)
     this.sstate = {
       isJapanese: true,
     }
@@ -54,6 +54,7 @@ class App extends Component {
               <Achievement isJapanese={isJapanese} />
               <Exposure isJapanese={isJapanese} />
               <Publication isJapanese={isJapanese} />
+              <Footer isJapanese={isJapanese} / >
             </MuiThemeProvider>
          </Router>
       </React.Fragment>
