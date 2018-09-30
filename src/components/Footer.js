@@ -28,7 +28,7 @@ class Footer extends Component {
 
     return (
       <div className={classes.root}>
-        <Link to="/portfolio/praivacy_policy">
+        <Link to="/praivacy_policy">
           <Typography align="center" className={classes.footer}>Privacy Policy</Typography>
         </Link>
         <Typography align="center" className={classes.footer}>© 2018 Takuya Tokiwa</Typography>

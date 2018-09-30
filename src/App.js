@@ -49,12 +49,12 @@ class App extends Component {
               <MenuBar switchLang={this.switchLang} />
               <Switch>
                 <Route
-                  path='/portfolio'
+                  path='/'
                   exact
                   render={() => <Portfolio isJapanese={isJapanese} />}
                 />
                 <Route
-                  path='/portfolio/praivacy_policy'
+                  path='/praivacy_policy'
                   render={() => <PrivacyPolicy isJapanese={isJapanese} />}
                 />
                 <Route component={NoMatch} />
