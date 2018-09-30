@@ -118,7 +118,7 @@ class MenuBar extends Component {
       <div className={classes.root}>
         <AppBar position="fixed" color="primary">
           <Toolbar>
-            <Link to="/">
+            <Link to="/portfolio">
               <Typography variant="title" color="inherit"  className={classes.title}>
                 Portfolio
               </Typography>
