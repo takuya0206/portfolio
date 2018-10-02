@@ -94,7 +94,7 @@ class Achievement extends Component {
                 <Grid key={achievement[key].title} item="item" xs={12} sm={4}>
                   <AchievementCard
                     classes={classes}
-                    imagePath={'.'+achievement[key].imagePath}
+                    imagePath={achievement[key].imagePath}
                     title={achievement[key].title}
                     role={achievement[key].role[lang]}
                     description={achievement[key].description[lang]}
