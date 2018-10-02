@@ -14,7 +14,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5"
   },
-  "homepage": "https://takuya0206.github.io/portfolio",
+  "homepage": "https://takuya0206.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
