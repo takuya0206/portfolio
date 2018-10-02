@@ -33,7 +33,7 @@ class Profile extends Component {
     return (
       <div className={classes.root}>
         <div className={classes.row}>
-          <img src={profile} alt="profile" className={classes.profile} />
+          <img src={'.'+profile} alt="profile" className={classes.profile} />
         </div>
         <Typography variant="display3" align="center" color="primary" component="h1">Takuya Tokiwa</Typography>
         <Typography variant="display1" align="center" color="primary" component="p" >Project Manager in EdTech Startup</Typography>

@@ -43,7 +43,7 @@ function ExposureModal(props){
           left: '50%',
           transform: 'translate(-50%, -50%)'
         }} className={classes.modal}>
-          <img src={path} style={{ height: 600 }} alt={title} />
+          <img src={'.'+path} style={{ height: 600 }} alt={title} />
         </div>
       </Modal>
     </div>

@@ -5,7 +5,6 @@ import Qubena from '../assets/img/qubena_highSchool.png'
 import NewsPaper_Wasabi from '../assets/img/NewsPaper_Wasabi.JPG'
 import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShimabara.JPG'
 
-
 export const skills = {
   'Project Management': {
     ja: ['中規模（15~300人月）', '小規模（~15人月）', 'ウォーターフォール', 'アジャイル'],
