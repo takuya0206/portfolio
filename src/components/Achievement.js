@@ -91,7 +91,7 @@ class Achievement extends Component {
           {
             Object.keys(achievement).map((key) => {
               return (
-                <Grid item="item" xs={12} sm={4}>
+                <Grid key={achievement[key].title} item="item" xs={12} sm={4}>
                   <AchievementCard
                     classes={classes}
                     imagePath={achievement[key].imagePath}
