@@ -141,5 +141,13 @@ export const publication = {
     },
     URL: 'https://www.amazon.com/Wasabis-Japanese-Grammar-Reference-Audio-ebook/dp/B06XBC9Q52',
     icon: 'book',
+  },
+  'takuya0206\'s diary': {
+    title: {
+      ja: 'takuya0206\'s diary（Blog）',
+      en: 'takuya0206\'s diary（Blog written in Japanese）',
+    },
+    URL: 'http://takuya0206.hateblo.jp',
+    icon: 'mobile-alt',
   }
 }

@@ -106,7 +106,7 @@ class MenuBar extends Component {
           <Icon type='fab' title='linkedin' URL={URL.linkedin} />
         </MenuItem>
         <MenuItem>
-          <Icon type='fab' title='twitter' URL={URL.twitter} />
+          <Icon title='envelope' URL={URL.email} />
         </MenuItem>
         <MenuItem>
           <Icon type='fas' title='language' method={switchLang}/>
@@ -127,7 +127,7 @@ class MenuBar extends Component {
             <div className={classes.sectionDesktop}>
               <Icon type="fab" title="github" URL={URL.github} />
               <Icon type="fab" title="linkedin" URL={URL.linkedin} />
-              <Icon type="fab" title="twitter" URL={URL.twitter} />
+              <Icon title="envelope" URL={URL.email} />
               <Icon type="fas" title="language" method={switchLang} />
             </div>
             <div className={classes.sectionMobile}>
