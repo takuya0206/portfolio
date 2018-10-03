@@ -33,7 +33,7 @@ class App extends Component {
             window.navigator.language ||
             window.navigator.userLanguage ||
             window.navigator.browserLanguage;
-    const isJapanese = lang === 'ja' ? true : false
+    const isJapanese = lang === 'ja' || lang === 'ja-JP' ? true : false
     this.setState({
       isJapanese: isJapanese
     })
