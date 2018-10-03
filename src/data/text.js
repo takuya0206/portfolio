@@ -26,8 +26,8 @@ export const introduction = {
     en: 'I am specialized for software and web application. I am especially strong in projects to create a huge quantity of contents along with system development because of the experience in Edtech filed.',
   },
   'Software Engineering': {
-    ja: 'プロジェクトマネジメントを促進するために、必要な情報の収集や、コミュニケーションを円滑にする為のツールを開発しています。また、空いた時間を見つけて個人用のアプリケーションも開発しています。',
-    en: 'In order to accelerate project management, I develop useful tools whereby collect necessary information and facilitate communication. Also, I love to develop personal apps in my spare time.',
+    ja: 'プロジェクトマネジメントを促進するために、必要な情報の収集や、コミュニケーションを円滑にする為のツールを開発しています。また、空いた時間を見つけて個人でアプリケーションの開発もしています。',
+    en: 'In order to accelerate project management, I develop useful tools whereby collect necessary information and facilitate communication. Also, I love to develop apps in my spare time.',
   },
   'Entrepreneurship': {
     ja: '起業と事業売却の経験が二回あります。会社経営は年商3000万程度の規模までで、ゼロイチ・フェーズの方が得意です。また、ビジネスだけではなく、財務・法務・労務などの知識と経験もあります。',
