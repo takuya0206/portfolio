@@ -90,7 +90,7 @@ export const achievement = {
       ja: 'ガントチャートを自動生成するスプレッドシートのアドオン。小規模から中規模のプロジェクトの進行管理や、大規模プロジェクトの叩き台のスケジュールを引くときなどに活用可能。',
       en: 'Google spreadsheet add-on in which you can automatically create a gantt chart. This is suitable to manage a small or a medium size of projects.',
     },
-    URL: 'https://chrome.google.com/webstore/detail/gantt-chart-generator/bnaicalmdphddkedcgchnfbjohmhdgni?utm_source=permalink',
+    URL: 'https://gsuite.google.com/marketplace/app/gantt_chart_generator/1037080664457',
   },
   'Precedence Diagram Maker': {
     imagePath: PDM,
@@ -103,7 +103,7 @@ export const achievement = {
       ja: 'Precedence Diagram Methodでネットワーク図を自動生成するスプレッドシートのアドオン。各工程の依存関係を整理し、スケジュールに落とし込むときなどに活用可能。',
       en: 'Google spreadsheet add-on in which you can automatically a network chart in Precedence Diagram Method and measure total duration of projects.',
     },
-    URL: 'https://chrome.google.com/webstore/detail/precedence-diagram-maker/mapjdikjkobbpmhaeeahjeobhllacjkb?utm_source=permalink',
+    URL: 'https://gsuite.google.com/marketplace/app/precedence_diagram_maker/1091965070131',
   },
   'Wasabi - Learn Japanese Oneline': {
     imagePath: Wasabi,
