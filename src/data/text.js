@@ -5,6 +5,7 @@ import Qubena from '../assets/img/qubena_highSchool.png'
 import NewsPaper_Wasabi from '../assets/img/NewsPaper_Wasabi.JPG'
 import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShimabara.JPG'
 import vaccine from '../assets/img/vaccine.png'
+import HindiScript from '../assets/img/HindiScript.png'
 
 export const skills = {
   'Project Management': {
@@ -53,6 +54,19 @@ export const titles = {
 
 
 export const achievement = {
+  'HindiScript': {
+    imagePath: HindiScript,
+    title: 'HindiScript (Devanagari)',
+    role: {
+      ja: '役割: Developer',
+      en: 'Role: Developer',
+    },
+    description: {
+      ja: 'ヒンディー語の文字（デーバナーガリー文字）の学習用iOSアプリ。音声を聞きながら、実際に文字を書いて練習することができます。',
+      en: 'iOS app which allows you to practice Hindi script (Devanagari). You can practice it by handwriting along with model examples and audio files.',
+    },
+    URL: 'https://itunes.apple.com/us/app/hindiscript-devanagari/id1447811715?l=ja&ls=1&mt=8',
+  },
   'Vaccine': {
     imagePath: vaccine,
     title: 'バクシン',
