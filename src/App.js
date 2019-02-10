@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <CssBaseline />
-          <Router>
+          <Router path={process.env.PUBLIC_URL + '/'}>
             <MuiThemeProvider theme={theme}>
               <MenuBar switchLang={this.switchLang} />
               <Switch>
