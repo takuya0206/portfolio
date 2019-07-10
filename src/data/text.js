@@ -6,11 +6,12 @@ import NewsPaper_Wasabi from '../assets/img/NewsPaper_Wasabi.png'
 import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShimabara.JPG'
 import vaccine from '../assets/img/vaccine.png'
 import HindiScript from '../assets/img/HindiScript.png'
+import HindiDrill from '../assets/img/HindiDrill.png'
 
 export const skills = {
   'Project Management': {
-    ja: ['中規模（15~300人月）', '小規模（~15人月）', 'ウォーターフォール', 'アジャイル'],
-    en: ['Medium (15~300 man-month)', 'Small (~15 man-month)', 'Waterhall', 'Agile'],
+    ja: ['大規模（301人月~）', '中規模（15~300人月）', '小規模（~15人月）', 'ウォーターフォール', 'アジャイル'],
+    en: ['Big (301 man-month~)', 'Medium (15~300 man-month)', 'Small (~15 man-month)', 'Waterhall', 'Agile'],
   },
   'Software Engineering': {
     ja: ['Google Apps Script', 'React', 'Redux', 'React Native', 'Node.js'],
@@ -54,6 +55,19 @@ export const titles = {
 
 
 export const achievement = {
+  'HindiDrill': {
+    imagePath: HindiDrill,
+    title: 'HindiDrill - Speaking',
+    role: {
+      ja: '役割: Developer',
+      en: 'Role: Developer',
+    },
+    description: {
+      ja: 'ヒンディー語のスピーキングの学習用iOSアプリ。各文法項目ごとに素早く文章を発話する練習をすることでスピーキング力が向上します。',
+      en: 'iOS app which allows you to practice speaking in Hindi. You can practice it by quickly composing sentences based on each grammar along with model audio files.',
+    },
+    URL: 'https://apps.apple.com/us/app/hindidrill-speaking/id1451831468',
+  },
   'HindiScript': {
     imagePath: HindiScript,
     title: 'HindiScript (Devanagari)',
