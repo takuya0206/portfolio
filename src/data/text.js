@@ -65,7 +65,7 @@ export const achievement = {
       ja: 'ヒンディー語の文字（デーバナーガリー文字）の学習用iOSアプリ。音声を聞きながら、実際に文字を書いて練習することができます。',
       en: 'iOS app which allows you to practice Hindi script (Devanagari). You can practice it by handwriting along with model examples and audio files.',
     },
-    URL: 'https://itunes.apple.com/us/app/hindiscript-devanagari/id1447811715?l=ja&ls=1&mt=8',
+    URL: 'https://itunes.apple.com/us/app/hindiscript-devanagari/id1447811715',
   },
   'Vaccine': {
     imagePath: vaccine,
@@ -78,7 +78,7 @@ export const achievement = {
       ja: '海外旅行の予防接種を管理するiOSアプリ。「予防接種を記録する」「予防接種が無効になる前にお知らせ」「渡航先で推奨される予防接種を調べる」などの機能があります。',
       en: 'iOS app which manages vaccination for oversea trips. There are main three features which are "record," "notice," and "search" necessary vaccinations'
     },
-    URL: 'https://itunes.apple.com/us/app/%E3%83%90%E3%82%AF%E3%82%B7%E3%83%B3/id1437060257?l=ja&ls=1&mt=8',
+    URL: 'https://itunes.apple.com/us/app/%E3%83%90%E3%82%AF%E3%82%B7%E3%83%B3/id1437060257',
   },
   'Qubena 高校版': {
     imagePath: Qubena,
