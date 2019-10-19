@@ -7,6 +7,7 @@ import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShim
 import vaccine from '../assets/img/vaccine.png'
 import HindiScript from '../assets/img/HindiScript.png'
 import HindiDrill from '../assets/img/HindiDrill.png'
+import Hindi音読 from '../assets/img/Hindi音読.png'
 
 export const skills = {
   'Project Management': {
@@ -55,6 +56,19 @@ export const titles = {
 
 
 export const achievement = {
+  'Hindi音読': {
+    imagePath: Hindi音読,
+    title: 'Hindi音読',
+    role: {
+      ja: '役割: Developer',
+      en: 'Role: Developer',
+    },
+    description: {
+      ja: 'ヒンディー語の音読・リピーティング・シャドーイングの学習iOSアプリ。様々な場面に合わせた実践的なスクリプトで練習することができます。',
+      en: 'iOS app which allows you to practice reading-aloud, repeating, and shadowing in Hindi. You can practice by using practical scripts for various situations.',
+    },
+    URL: 'https://apps.apple.com/us/app/hindi音読/id1475501939',
+  },
   'HindiDrill': {
     imagePath: HindiDrill,
     title: 'HindiDrill - Speaking',
@@ -70,7 +84,7 @@ export const achievement = {
   },
   'HindiScript': {
     imagePath: HindiScript,
-    title: 'HindiScript (Devanagari)',
+    title: 'HindiScript - Devanagari',
     role: {
       ja: '役割: Developer',
       en: 'Role: Developer',
@@ -83,7 +97,7 @@ export const achievement = {
   },
   'Vaccine': {
     imagePath: vaccine,
-    title: 'バクシン',
+    title: 'バクシン (*deprecated)',
     role: {
       ja: '役割: Developer',
       en: 'Role: Developer',
