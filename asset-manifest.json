@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.6a8f1b3a.css",
   "main.css.map": "static/css/main.6a8f1b3a.css.map",
-  "main.js": "static/js/main.48f38f29.js",
-  "main.js.map": "static/js/main.48f38f29.js.map",
+  "main.js": "static/js/main.3936b269.js",
+  "main.js.map": "static/js/main.3936b269.js.map",
   "static/media/HindiDrill.png": "static/media/HindiDrill.7e89101d.png",
   "static/media/HindiScript.png": "static/media/HindiScript.e8c2f79a.png",
   "static/media/Hindi音読.png": "static/media/Hindi音読.d64aa920.png",
@@ -12,6 +12,7 @@
   "static/media/Wasabi.png": "static/media/Wasabi.63b390a2.png",
   "static/media/gantt_chart_generator.png": "static/media/gantt_chart_generator.5f7ef632.png",
   "static/media/profile.jpg": "static/media/profile.fe2a8718.jpg",
-  "static/media/qubena_highSchool.png": "static/media/qubena_highSchool.838fa4c4.png",
+  "static/media/qubena_English.png": "static/media/qubena_English.ea630bb9.png",
+  "static/media/qubena_highSchool.png": "static/media/qubena_highSchool.6e2fe9c4.png",
   "static/media/vaccine.png": "static/media/vaccine.fce555ba.png"
 }
