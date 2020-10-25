@@ -1,7 +1,8 @@
 import gantt_chart_generator from '../assets/img/gantt_chart_generator.png'
 import PDM from '../assets/img/PDM.png'
 import Wasabi from '../assets/img/Wasabi.png'
-import Qubena from '../assets/img/qubena_highSchool.png'
+import Qubena中高英語 from '../assets/img/qubena_English.png'
+import QubenaHishSchool from '../assets/img/qubena_highSchool.png'
 import NewsPaper_Wasabi from '../assets/img/NewsPaper_Wasabi.png'
 import NewsPaper_Wasabi_FMShimabara from '../assets/img/NewsPaper_ Wasabi_FMShimabara.JPG'
 import vaccine from '../assets/img/vaccine.png'
@@ -56,6 +57,19 @@ export const titles = {
 
 
 export const achievement = {
+  'Qubena 中高英語 by 河合塾': {
+    imagePath: Qubena中高英語,
+    title: 'Qubena 中高英語 by 河合塾',
+    role: {
+      ja: '役割: Project Manager',
+      en: 'Role: Project Manager',
+    },
+    description: {
+      ja: '中学・高校の学習範囲の2領域（単語 / 文法）、4技能（Reading / Listening / Writing / Speaking）を統合的に学習できます。多様な解答方式と評価システムを搭載しており、すべての領域・技能において最適な学習体験を提供します。',
+      en: 'AI-Programmed Learning Tool "Qubena". Qubena provides optimal learning experience in vocabulary, grammar, reading, listening, writing, and speaking by a variety of answer methods and assessment systems.',
+    },
+    URL: 'https://apps.apple.com/jp/app/qubena-%E4%B8%AD%E9%AB%98%E8%8B%B1%E8%AA%9E-by-%E6%B2%B3%E5%90%88%E5%A1%BE/id1433298557',
+  },
   'Hindi音読': {
     imagePath: Hindi音読,
     title: 'Hindi音読',
@@ -91,32 +105,19 @@ export const achievement = {
     },
     description: {
       ja: 'ヒンディー語の文字（デーバナーガリー文字）の学習用iOSアプリ。音声を聞きながら、実際に文字を書いて練習することができます。',
-      en: 'iOS app which allows you to practice Hindi script (Devanagari). You can practice it by handwriting along with model examples and audio files.',
+      en: 'iOS / Android app which allows you to practice Hindi script (Devanagari). You can practice it by handwriting along with model examples and audio files.',
     },
     URL: 'https://itunes.apple.com/us/app/hindiscript-devanagari/id1447811715',
   },
-  'Vaccine': {
-    imagePath: vaccine,
-    title: 'バクシン (*deprecated)',
-    role: {
-      ja: '役割: Developer',
-      en: 'Role: Developer',
-    },
-    description: {
-      ja: '海外旅行の予防接種を管理するiOSアプリ。「予防接種を記録する」「予防接種が無効になる前にお知らせ」「渡航先で推奨される予防接種を調べる」などの機能があります。',
-      en: 'iOS app which manages vaccination for oversea trips. There are main three features which are "record," "notice," and "search" necessary vaccinations'
-    },
-    URL: 'https://itunes.apple.com/us/app/%E3%83%90%E3%82%AF%E3%82%B7%E3%83%B3/id1437060257',
-  },
-  'Qubena 高校版': {
-    imagePath: Qubena,
-    title: 'Qubena 高校版',
+  'Qubena 高校数学 IA IIB by 河合塾': {
+    imagePath: QubenaHishSchool,
+    title: 'Qubena 高校数学 IA IIB by 河合塾',
     role: {
       ja: '役割: Project Manager',
       en: 'Role: Project Manager',
     },
     description: {
-      ja: '世界初の人工知能型教材 "Qubena(キュビナ)"。Qubenaは、生徒それぞれの間違い方の原因を人工知能が解析し、原因を解決するためにその生徒が解くべき問題へと誘導します。',
+      ja: '人工知能型教材 "Qubena(キュビナ)"。Qubenaは、生徒それぞれの間違い方の原因を人工知能が解析し、原因を解決するためにその生徒が解くべき問題へと誘導します。',
       en: 'AI-Programmed Learning Tool "Qubena". Qubena produces a productive learning best fit for the student, allowing students to keep moving forward onto new concepts.'
     },
     URL: 'https://itunes.apple.com/jp/app/qubena-%E9%AB%98%E6%A0%A1%E7%89%88/id1321405084?mt=8',
