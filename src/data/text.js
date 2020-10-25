@@ -104,7 +104,7 @@ export const achievement = {
       en: 'Role: Developer',
     },
     description: {
-      ja: 'ヒンディー語の文字（デーバナーガリー文字）の学習用iOSアプリ。音声を聞きながら、実際に文字を書いて練習することができます。',
+      ja: 'ヒンディー語の文字（デーバナーガリー文字）の学習用iOS/Androidアプリ。音声を聞きながら、実際に文字を書いて練習することができます。',
       en: 'iOS / Android app which allows you to practice Hindi script (Devanagari). You can practice it by handwriting along with model examples and audio files.',
     },
     URL: 'https://itunes.apple.com/us/app/hindiscript-devanagari/id1447811715',
