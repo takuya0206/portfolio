@@ -133,7 +133,7 @@ export const achievement = {
       ja: 'ガントチャートを自動生成するスプレッドシートのアドオン。小規模から中規模のプロジェクトの進行管理や、大規模プロジェクトの叩き台のスケジュールを引くときなどに活用可能。',
       en: 'Google spreadsheet add-on in which you can automatically create a gantt chart. This is suitable to manage a small or a medium size of projects.',
     },
-    URL: 'https://gsuite.google.com/marketplace/app/gantt_chart_generator/1037080664457',
+    URL: 'https://workspace.google.com/marketplace/app/gantt_chart_generator/597114635116',
   },
   'Precedence Diagram Maker': {
     imagePath: PDM,
